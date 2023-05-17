@@ -1,0 +1,35 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.name-authors{
+    margin-top: 30px;
+    color: rgb(75, 71, 71);
+    text-align: center;
+}
+p{
+    margin-top: 10px;
+}
+.container{
+    display: flex;
+    margin: 20px;
+    color: rgb(96, 94, 94);
+    text-align: center;
+   
+}
+.picture {
+    text-align: center;
+    border-radius: 10px;
+    width:"450px";
+    margin-top: 20px;
+}
+
+.left-coloumn {
+    margin: 0 20px 0 200px;
+    text-align:justify;
+    
+}
+.right-coloumn {
+    margin: 0 200px 20px 0;
+    
+    text-align: justify;
+}
