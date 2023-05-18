@@ -14,7 +14,7 @@ p{
     margin: 20px;
     color: rgb(96, 94, 94);
     text-align: center;
-   
+ 
 }
 .picture {
     text-align: center;
@@ -30,6 +30,5 @@ p{
 }
 .right-coloumn {
     margin: 0 200px 20px 0;
-    
     text-align: justify;
 }

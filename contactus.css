@@ -1,0 +1,95 @@
+body{
+font-family: 'Roboto', sans-serif;
+color: rgb(75, 71, 71);
+}
+
+.container{
+    display: flex;
+}
+
+.address{
+    margin-top: 30px;
+        color: rgb(75, 71, 71);
+        text-align: center;
+}
+
+.photo {
+    border-radius: 5px;
+    box-shadow: 5px;
+    margin: 50px;
+}
+
+.googlemap{
+    margin: 50px;
+}
+
+.map{
+width: 600px;
+height: 450px;
+border-radius: 5px;
+box-shadow: 5px;
+}
+
+.contactus{
+margin-top: 30px;
+    color: rgb(75, 71, 71);
+    text-align: center;
+}
+
+form{
+    font-family: 'Roboto', sans-serif;
+    width: 700px;
+    margin: 20px auto;
+    background-color: rgb(203, 232, 232);
+        padding: 10px;
+    border-radius: 6px;
+}
+
+input{
+    font: inherit;
+    display: block;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    color: rgb(75, 71, 71);    
+}
+
+input:focus{
+    background-color: rgb(220, 240, 240);
+    border-color: rgb(58, 91, 91);
+    color: rgb(58, 91, 91);
+}
+
+label{
+    margin-bottom: 10px;
+    display: block;
+}
+
+textarea {
+    font: inherit;
+    display: block;
+    margin-bottom: 5px;
+    color: rgb(75, 71, 71);
+}
+
+textarea:focus{
+background-color: rgb(220, 240, 240);
+    border-color: rgb(58, 91, 91);
+    color: rgb(58, 91, 91);
+}
+
+button{
+    font: inherit;
+    display: block;
+    padding: 5px 10px 5px 10px;
+    background-color: rgb(231, 244, 244);
+    color: rgb (203,232,232);
+    border-radius: 5px;
+    border-color: rgb(178,214,214);
+    
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgb(203, 232, 232);
+}
+    

@@ -6,60 +6,94 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="general.css" />
+    <link rel="stylesheet" href="contactus.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Krub:ital,wght@0,600;1,200&family=Roboto:wght@300;500&family=Titillium+Web:ital,wght@0,200;0,300;1,200&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <nav>
       <a href="index.html">Home |</a>
-
       <a href="contactUs.html">Contact us |</a>
       <a href="blog.html">Blog</a>
     </nav>
-    <img
-      src="/photos and videos/pexels-pavel-danilyuk-5788299.jpg"
-      width="300px"
-    />
-
-    <table cellpadding="20px">
-      <tr>
-        <th>Our adress</th>
-        <th>Our social networks</th>
-      </tr>
-      <td>
+    <h2 class="address">HOW TO FIND US</h2>
+    <div class="container">
+      <div class="googlemap">
         <iframe
+          class="map"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2659.099153678709!2d16.384329275851023!3d48.20470604648626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476d0773b3a363df%3A0x82d2c35269249137!2sLaniato%20-%20Das%20Wiener%20Wollcaf%C3%A9!5e0!3m2!1sru!2sat!4v1684317950501!5m2!1sru!2sat"
-          width="600"
-          height="450"
-          style="border: 0"
-          allowfullscreen=""
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
         ></iframe>
-      </td>
-      <td>
-        <ul>
-          <li>
-            <img
-              src="/photos and videos/instagram-round-line-icon.svg"
-              width="30px"
-            />
-            Instagram
-          </li>
-          <li>
-            <img
-              src="/photos and videos/facebook-round-line-icon.svg"
-              width="30px"
-            />
-            Facebook
-          </li>
-          <li>
-            <img
-              src="/photos and videos/tiktok-round-line-icon.svg"
-              width="30px"
-            />
-            Tik-Tok
-          </li>
-        </ul>
-      </td>
-    </table>
+      </div>
+      <div>
+        <img
+          class="photo"
+          src="/photos and videos/pexels-pavel-danilyuk-5788299.jpg"
+          width="300px"
+        />
+      </div>
+    </div>
+    <h2 class="contactus">CONTACT US</h2>
+    <div>
+      <form>
+        <label>First Name:</label>
+        <input
+          required
+          type="text"
+          name="firstname"
+          placeholder="First Name"
+          size="40px"
+        />
+
+        <label>E-mail:</label>
+        <input
+          required
+          type="email"
+          email="email"
+          placeholder="E-mail address"
+          size="40px"
+        />
+
+        <label>Comments:</label>
+
+        <p>
+          <textarea
+            name="message"
+            rows="10"
+            cols="60"
+            placeholder="Do you have any questions?"
+          ></textarea>
+        </p>
+        <br />
+        <button>Submit</button>
+      </form>
+    </div>
+
+    <footer>
+      <ul>
+        <li>
+          <img
+            src="/photos and videos/instagram-round-line-icon.svg"
+            width="30px"
+          />
+          Instagram
+        </li>
+        <li>
+          <img
+            src="/photos and videos/facebook-round-line-icon.svg"
+            width="30px"
+          />
+          Facebook
+        </li>
+        <li>
+          <img
+            src="/photos and videos/tiktok-round-line-icon.svg"
+            width="30px"
+          />
+          Tik-Tok
+        </li>
+      </ul>
+    </footer>
   </body>
 </html>
