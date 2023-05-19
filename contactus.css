@@ -11,7 +11,7 @@ color: rgb(75, 71, 71);
     margin-top: 30px;
         color: rgb(75, 71, 71);
         text-align: center;
-}
+        }
 
 .photo {
     border-radius: 5px;
@@ -20,7 +20,7 @@ color: rgb(75, 71, 71);
 }
 
 .googlemap{
-    margin: 50px;
+    margin: 50px 150px 50px 150px;
 }
 
 .map{
@@ -28,6 +28,8 @@ width: 600px;
 height: 450px;
 border-radius: 5px;
 box-shadow: 5px;
+
+
 }
 
 .contactus{
