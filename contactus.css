@@ -3,48 +3,52 @@ font-family: 'Roboto', sans-serif;
 color: rgb(75, 71, 71);
 }
 
-.container{
+
+.container {
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
 }
 
-.address{
-    margin-top: 30px;
+.address {
+        padding-top: 80px;
         color: rgb(75, 71, 71);
         text-align: center;
         }
 
 .photo {
     border-radius: 5px;
-    box-shadow: 5px;
-    margin: 50px;
+    box-shadow: 5px; margin: 50px;
 }
 
-.googlemap{
-    margin: 50px 150px 50px 150px;
+.googlemap {
+    box-shadow: 0 7px 4px rgb(131, 151, 151);
+    height: 450px;
 }
 
-.map{
-width: 600px;
+.map {
+width: 500px;
 height: 450px;
 border-radius: 5px;
 box-shadow: 5px;
 
-
 }
 
-.contactus{
-margin-top: 30px;
+.contactus {
+    margin-top: 30px;
     color: rgb(75, 71, 71);
     text-align: center;
 }
 
-form{
+form {
     font-family: 'Roboto', sans-serif;
     width: 700px;
     margin: 20px auto;
     background-color: rgb(203, 232, 232);
-        padding: 10px;
+    padding: 10px;
     border-radius: 6px;
+    box-shadow: 0 7px 4px rgb(131, 151, 151);
 }
 
 input{
@@ -94,4 +98,22 @@ button:hover{
     cursor: pointer;
     background-color: rgb(203, 232, 232);
 }
-    
+   
+
+.container-reviews {
+margin-top: 150px;
+  display: flex;
+  justify-content: space-around;
+}
+.review1, .review2 {
+
+    font-family: 'Freehand', cursive;
+    flex-basis: 40%;
+    height: 200px;
+    font-size: larger;
+}
+
+span {
+    color:rgb(253, 201, 13);
+    size: 25px;
+}
